@@ -16,7 +16,6 @@ Fake-ZhiHu-Daily-LaunchImage-Transition
     
     return YES;
 }
-});
 ```
 
  
