@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AFA27D918FD2B6500B2892C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27D818FD2B6500B2892C /* Foundation.framework */; };
+		5AFA27DB18FD2B6600B2892C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27DA18FD2B6600B2892C /* CoreGraphics.framework */; };
+		5AFA27DD18FD2B6600B2892C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27DC18FD2B6600B2892C /* UIKit.framework */; };
+		5AFA27E318FD2B6600B2892C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA27E118FD2B6600B2892C /* InfoPlist.strings */; };
+		5AFA27E518FD2B6600B2892C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA27E418FD2B6600B2892C /* main.m */; };
+		5AFA27E918FD2B6600B2892C /* KCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */; };
+		5AFA27EF18FD2B6600B2892C /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA27EE18FD2B6600B2892C /* KCViewController.m */; };
+		5AFA27F118FD2B6600B2892C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA27F018FD2B6600B2892C /* Images.xcassets */; };
+		5AFA27F818FD2B6600B2892C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27F718FD2B6600B2892C /* XCTest.framework */; };
+		5AFA27F918FD2B6600B2892C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27D818FD2B6500B2892C /* Foundation.framework */; };
+		5AFA27FA18FD2B6600B2892C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27DC18FD2B6600B2892C /* UIKit.framework */; };
+		5AFA280218FD2B6600B2892C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA280018FD2B6600B2892C /* InfoPlist.strings */; };
+		5AFA280418FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA280318FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.m */; };
+		5AFA280F18FD2F7200B2892C /* KCLaunchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA280E18FD2F7200B2892C /* KCLaunchImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AFA27FB18FD2B6600B2892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AFA27CD18FD2B6500B2892C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFA27D418FD2B6500B2892C;
+			remoteInfo = FakeZhiHuDailyLaunchImageTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AFA27D518FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeZhiHuDailyLaunchImageTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA27D818FD2B6500B2892C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AFA27DA18FD2B6600B2892C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AFA27DC18FD2B6600B2892C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AFA27E018FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FakeZhiHuDailyLaunchImageTransition-Info.plist"; sourceTree = "<group>"; };
+		5AFA27E218FD2B6600B2892C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AFA27E418FD2B6600B2892C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AFA27E618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FakeZhiHuDailyLaunchImageTransition-Prefix.pch"; sourceTree = "<group>"; };
+		5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KCAppDelegate.h; path = FakeZhiHuDailyLaunchImageTransition/KCAppDelegate.h; sourceTree = "<group>"; };
+		5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KCAppDelegate.m; path = FakeZhiHuDailyLaunchImageTransition/KCAppDelegate.m; sourceTree = "<group>"; };
+		5AFA27ED18FD2B6600B2892C /* KCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KCViewController.h; path = FakeZhiHuDailyLaunchImageTransition/KCViewController.h; sourceTree = "<group>"; };
+		5AFA27EE18FD2B6600B2892C /* KCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KCViewController.m; path = FakeZhiHuDailyLaunchImageTransition/KCViewController.m; sourceTree = "<group>"; };
+		5AFA27F018FD2B6600B2892C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AFA27F618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeZhiHuDailyLaunchImageTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFA27F718FD2B6600B2892C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AFA27FF18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FakeZhiHuDailyLaunchImageTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		5AFA280118FD2B6600B2892C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AFA280318FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FakeZhiHuDailyLaunchImageTransitionTests.m; sourceTree = "<group>"; };
+		5AFA280D18FD2F7100B2892C /* KCLaunchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLaunchImageViewController.h; sourceTree = "<group>"; };
+		5AFA280E18FD2F7200B2892C /* KCLaunchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLaunchImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFA27D218FD2B6500B2892C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA27DB18FD2B6600B2892C /* CoreGraphics.framework in Frameworks */,
+				5AFA27DD18FD2B6600B2892C /* UIKit.framework in Frameworks */,
+				5AFA27D918FD2B6500B2892C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA27F318FD2B6600B2892C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA27F818FD2B6600B2892C /* XCTest.framework in Frameworks */,
+				5AFA27FA18FD2B6600B2892C /* UIKit.framework in Frameworks */,
+				5AFA27F918FD2B6600B2892C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A00B5F018FE18300003326D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */,
+				5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */,
+				5AFA27ED18FD2B6600B2892C /* KCViewController.h */,
+				5AFA27EE18FD2B6600B2892C /* KCViewController.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		5AFA27CC18FD2B6500B2892C = {
+			isa = PBXGroup;
+			children = (
+				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
+				5A00B5F018FE18300003326D /* Example */,
+				5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */,
+				5AFA27FD18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */,
+				5AFA27D718FD2B6500B2892C /* Frameworks */,
+				5AFA27D618FD2B6500B2892C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFA27D618FD2B6500B2892C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA27D518FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition.app */,
+				5AFA27F618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFA27D718FD2B6500B2892C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA27D818FD2B6500B2892C /* Foundation.framework */,
+				5AFA27DA18FD2B6600B2892C /* CoreGraphics.framework */,
+				5AFA27DC18FD2B6600B2892C /* UIKit.framework */,
+				5AFA27F718FD2B6600B2892C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA280D18FD2F7100B2892C /* KCLaunchImageViewController.h */,
+				5AFA280E18FD2F7200B2892C /* KCLaunchImageViewController.m */,
+			);
+			path = FakeZhiHuDailyLaunchImageTransition;
+			sourceTree = "<group>";
+		};
+		5AFA27DF18FD2B6600B2892C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA27F018FD2B6600B2892C /* Images.xcassets */,
+				5AFA27E018FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Info.plist */,
+				5AFA27E118FD2B6600B2892C /* InfoPlist.strings */,
+				5AFA27E418FD2B6600B2892C /* main.m */,
+				5AFA27E618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = FakeZhiHuDailyLaunchImageTransition;
+			sourceTree = "<group>";
+		};
+		5AFA27FD18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA280318FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.m */,
+				5AFA27FE18FD2B6600B2892C /* Supporting Files */,
+			);
+			path = FakeZhiHuDailyLaunchImageTransitionTests;
+			sourceTree = "<group>";
+		};
+		5AFA27FE18FD2B6600B2892C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AFA27FF18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests-Info.plist */,
+				5AFA280018FD2B6600B2892C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFA27D418FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA280718FD2B6600B2892C /* Build configuration list for PBXNativeTarget "FakeZhiHuDailyLaunchImageTransition" */;
+			buildPhases = (
+				5AFA27D118FD2B6500B2892C /* Sources */,
+				5AFA27D218FD2B6500B2892C /* Frameworks */,
+				5AFA27D318FD2B6500B2892C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeZhiHuDailyLaunchImageTransition;
+			productName = FakeZhiHuDailyLaunchImageTransition;
+			productReference = 5AFA27D518FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AFA27F518FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFA280A18FD2B6600B2892C /* Build configuration list for PBXNativeTarget "FakeZhiHuDailyLaunchImageTransitionTests" */;
+			buildPhases = (
+				5AFA27F218FD2B6600B2892C /* Sources */,
+				5AFA27F318FD2B6600B2892C /* Frameworks */,
+				5AFA27F418FD2B6600B2892C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFA27FC18FD2B6600B2892C /* PBXTargetDependency */,
+			);
+			name = FakeZhiHuDailyLaunchImageTransitionTests;
+			productName = FakeZhiHuDailyLaunchImageTransitionTests;
+			productReference = 5AFA27F618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFA27CD18FD2B6500B2892C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "kavi chen";
+				TargetAttributes = {
+					5AFA27F518FD2B6600B2892C = {
+						TestTargetID = 5AFA27D418FD2B6500B2892C;
+					};
+				};
+			};
+			buildConfigurationList = 5AFA27D018FD2B6500B2892C /* Build configuration list for PBXProject "FakeZhiHuDailyLaunchImageTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AFA27CC18FD2B6500B2892C;
+			productRefGroup = 5AFA27D618FD2B6500B2892C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFA27D418FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition */,
+				5AFA27F518FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFA27D318FD2B6500B2892C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA27F118FD2B6600B2892C /* Images.xcassets in Resources */,
+				5AFA27E318FD2B6600B2892C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA27F418FD2B6600B2892C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA280218FD2B6600B2892C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFA27D118FD2B6500B2892C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA27EF18FD2B6600B2892C /* KCViewController.m in Sources */,
+				5AFA27E918FD2B6600B2892C /* KCAppDelegate.m in Sources */,
+				5AFA27E518FD2B6600B2892C /* main.m in Sources */,
+				5AFA280F18FD2F7200B2892C /* KCLaunchImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFA27F218FD2B6600B2892C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFA280418FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFA27FC18FD2B6600B2892C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AFA27D418FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition */;
+			targetProxy = 5AFA27FB18FD2B6600B2892C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AFA27E118FD2B6600B2892C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFA27E218FD2B6600B2892C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AFA280018FD2B6600B2892C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFA280118FD2B6600B2892C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AFA280518FD2B6600B2892C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AFA280618FD2B6600B2892C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AFA280818FD2B6600B2892C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FakeZhiHuDailyLaunchImageTransition/FakeZhiHuDailyLaunchImageTransition-Prefix.pch";
+				INFOPLIST_FILE = "FakeZhiHuDailyLaunchImageTransition/FakeZhiHuDailyLaunchImageTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AFA280918FD2B6600B2892C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FakeZhiHuDailyLaunchImageTransition/FakeZhiHuDailyLaunchImageTransition-Prefix.pch";
+				INFOPLIST_FILE = "FakeZhiHuDailyLaunchImageTransition/FakeZhiHuDailyLaunchImageTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AFA280B18FD2B6600B2892C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FakeZhiHuDailyLaunchImageTransition.app/FakeZhiHuDailyLaunchImageTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FakeZhiHuDailyLaunchImageTransition/FakeZhiHuDailyLaunchImageTransition-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FakeZhiHuDailyLaunchImageTransitionTests/FakeZhiHuDailyLaunchImageTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5AFA280C18FD2B6600B2892C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FakeZhiHuDailyLaunchImageTransition.app/FakeZhiHuDailyLaunchImageTransition";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FakeZhiHuDailyLaunchImageTransition/FakeZhiHuDailyLaunchImageTransition-Prefix.pch";
+				INFOPLIST_FILE = "FakeZhiHuDailyLaunchImageTransitionTests/FakeZhiHuDailyLaunchImageTransitionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFA27D018FD2B6500B2892C /* Build configuration list for PBXProject "FakeZhiHuDailyLaunchImageTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA280518FD2B6600B2892C /* Debug */,
+				5AFA280618FD2B6600B2892C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA280718FD2B6600B2892C /* Build configuration list for PBXNativeTarget "FakeZhiHuDailyLaunchImageTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA280818FD2B6600B2892C /* Debug */,
+				5AFA280918FD2B6600B2892C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA280A18FD2B6600B2892C /* Build configuration list for PBXNativeTarget "FakeZhiHuDailyLaunchImageTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFA280B18FD2B6600B2892C /* Debug */,
+				5AFA280C18FD2B6600B2892C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFA27CD18FD2B6500B2892C /* Project object */;
+}
