@@ -42,10 +42,10 @@
 		5AFA27E218FD2B6600B2892C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AFA27E418FD2B6600B2892C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AFA27E618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FakeZhiHuDailyLaunchImageTransition-Prefix.pch"; sourceTree = "<group>"; };
-		5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KCAppDelegate.h; path = FakeZhiHuDailyLaunchImageTransition/KCAppDelegate.h; sourceTree = "<group>"; };
-		5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KCAppDelegate.m; path = FakeZhiHuDailyLaunchImageTransition/KCAppDelegate.m; sourceTree = "<group>"; };
-		5AFA27ED18FD2B6600B2892C /* KCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KCViewController.h; path = FakeZhiHuDailyLaunchImageTransition/KCViewController.h; sourceTree = "<group>"; };
-		5AFA27EE18FD2B6600B2892C /* KCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KCViewController.m; path = FakeZhiHuDailyLaunchImageTransition/KCViewController.m; sourceTree = "<group>"; };
+		5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCAppDelegate.h; sourceTree = "<group>"; };
+		5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCAppDelegate.m; sourceTree = "<group>"; };
+		5AFA27ED18FD2B6600B2892C /* KCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCViewController.h; sourceTree = "<group>"; };
+		5AFA27EE18FD2B6600B2892C /* KCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
 		5AFA27F018FD2B6600B2892C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5AFA27F618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeZhiHuDailyLaunchImageTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFA27F718FD2B6600B2892C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -80,22 +80,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A00B5F018FE18300003326D /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */,
-				5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */,
-				5AFA27ED18FD2B6600B2892C /* KCViewController.h */,
-				5AFA27EE18FD2B6600B2892C /* KCViewController.m */,
-			);
-			name = Example;
-			sourceTree = "<group>";
-		};
 		5AFA27CC18FD2B6500B2892C = {
 			isa = PBXGroup;
 			children = (
-				5A00B5F018FE18300003326D /* Example */,
-				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
 				5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */,
 				5AFA27FD18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */,
 				5AFA27D718FD2B6500B2892C /* Frameworks */,
@@ -126,6 +113,11 @@
 		5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */ = {
 			isa = PBXGroup;
 			children = (
+				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
+				5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */,
+				5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */,
+				5AFA27ED18FD2B6600B2892C /* KCViewController.h */,
+				5AFA27EE18FD2B6600B2892C /* KCViewController.m */,
 				5AFA280D18FD2F7100B2892C /* KCLaunchImageViewController.h */,
 				5AFA280E18FD2F7200B2892C /* KCLaunchImageViewController.m */,
 			);
@@ -142,7 +134,6 @@
 				5AFA27E618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = FakeZhiHuDailyLaunchImageTransition;
 			sourceTree = "<group>";
 		};
 		5AFA27FD18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */ = {

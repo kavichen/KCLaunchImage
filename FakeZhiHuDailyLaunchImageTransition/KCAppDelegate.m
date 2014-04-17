@@ -20,7 +20,7 @@
     self.window.rootViewController =
     [KCLaunchImageViewController addTransitionToViewController:[[KCViewController alloc] init]
                                           modalTransitionStyle:UIModalTransitionStyleCrossDissolve
-                                                     withImage:@"Photograph"
+                                                     withImage:@"DisplayImage"
                                                      taskBlock:^(void){
                                                          [splashScreen removeFromSuperview];
                                                      }];

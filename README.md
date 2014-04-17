@@ -6,7 +6,7 @@ Fake-ZhiHu-Daily-LaunchImage-Transition
 2. Create a new image set named `FakeLaunchImage`
 3. Add your own launch image into `LaunchImage` and `FakeLaunchImage` separately
 4. Add your own display image named `displayImage`
-4. In your `AppDelegate.m` file, add those code
+5. In your `AppDelegate.m` file, add those code
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -25,6 +25,10 @@ Fake-ZhiHu-Daily-LaunchImage-Transition
     return YES;
 }
 ```
+
+## Resource File
+The files should be open in [Sketch](http://bohemiancoding.com/sketch/)
+
 ## Author
 
 kavichen, chen1qi2wei3@gmail.com
