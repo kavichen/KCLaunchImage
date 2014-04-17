@@ -89,12 +89,13 @@
 				5AFA27EE18FD2B6600B2892C /* KCViewController.m */,
 			);
 			name = Example;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		5AFA27CC18FD2B6500B2892C = {
 			isa = PBXGroup;
 			children = (
+				5A00B5F018FE18300003326D /* Example */,
+				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
 				5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */,
 				5AFA27FD18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */,
 				5AFA27D718FD2B6500B2892C /* Frameworks */,
@@ -125,8 +126,6 @@
 		5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */ = {
 			isa = PBXGroup;
 			children = (
-				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
-				5A00B5F018FE18300003326D /* Example */,
 				5AFA280D18FD2F7100B2892C /* KCLaunchImageViewController.h */,
 				5AFA280E18FD2F7200B2892C /* KCLaunchImageViewController.m */,
 			);
@@ -143,6 +142,7 @@
 				5AFA27E618FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = FakeZhiHuDailyLaunchImageTransition;
 			sourceTree = "<group>";
 		};
 		5AFA27FD18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransitionTests */ = {

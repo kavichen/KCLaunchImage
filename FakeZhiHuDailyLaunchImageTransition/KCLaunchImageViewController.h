@@ -7,15 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#define DURATION 6.0
-#define XSCALE 1.3
-#define YSCALE 1.3
+#define TRANSITION_DURATION 1.66
+#define ANIMATION_DURATION 4.0
+#define XSCALE 1.15
+#define YSCALE 1.15
 
 
 @interface KCLaunchImageViewController : UIViewController
 
 + (instancetype)addTransitionToViewController:(id)viewController
                          modalTransitionStyle:(UIModalTransitionStyle)theStyle
-                                    withImage:(NSString *)imageName;
+                                    withImage:(NSString *)imageName
+                                    taskBlock:(void (^)(void))block;
 
 @end

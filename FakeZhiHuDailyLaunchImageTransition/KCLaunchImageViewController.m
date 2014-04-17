@@ -7,52 +7,99 @@
 //
 
 #import "KCLaunchImageViewController.h"
+#import "KCAppDelegate.h"
 
 @interface KCLaunchImageViewController ()
+@property (nonatomic,strong) UIImage * myImage;
+@property (nonatomic,strong) id viewController;
+@property (nonatomic,strong) UIImageView *fromImageView;
+@property (nonatomic,strong) UIImageView *toImageView;
+@property (nonatomic,strong) UIImageView *maskImageView;
+
 @end
 
 @implementation KCLaunchImageViewController
+@synthesize myImage = _myImage;
 
 + (instancetype)addTransitionToViewController:(id)viewController
                          modalTransitionStyle:(UIModalTransitionStyle)theStyle
                                     withImage:(NSString *)imageName
+                                    taskBlock:(void (^)(void))block
 {
     return [[self alloc] initWithViewController:viewController
                            modalTransitionStyle:theStyle
-                                          image:imageName];
+                                          image:imageName
+                                      taskBlock:block];
 }
 
 - (instancetype)initWithViewController:(id)viewController
                   modalTransitionStyle:(UIModalTransitionStyle)theStyle
-                             image:(NSString *)imageName
+                                 image:(NSString *)imageName
+                             taskBlock:(void (^)(void))block
+                             
 {
     self = [super init];
     if (self) {
-        
         [viewController setModalTransitionStyle:theStyle];
-        
-        UIImageView *imageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        imageView.image = [UIImage imageNamed:imageName];
-        [self.view addSubview:imageView];
-        
-        [UIView beginAnimations:nil context:nil];
-        [UIView setAnimationDuration:DURATION];
-        CGAffineTransform transformIn = CGAffineTransformMakeScale(XSCALE, YSCALE);
-        imageView.transform = transformIn;
-        [UIView commitAnimations];
-        
-        [NSTimer scheduledTimerWithTimeInterval:DURATION
-                                         target:self
-                                       selector:@selector(presentNextViewController:)
-                                       userInfo:viewController
-                                        repeats:NO];
+        self.myImage = [UIImage imageNamed:imageName];
+        self.viewController = viewController;
+        block();
     }
     return self;
 }
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.fromImageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.toImageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.maskImageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.fromImageView.image = [UIImage imageNamed:@"FakeLaunchImage"];
+    [self.view addSubview:self.fromImageView];
+    
+    self.maskImageView.image = [UIImage imageNamed:@"MaskImage"];
+    [self.view insertSubview:self.maskImageView belowSubview:self.fromImageView];
+    
+    self.toImageView.image = self.myImage;
+    [self.view insertSubview:self.toImageView belowSubview:self.maskImageView];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:TRANSITION_DURATION];
+    [self.fromImageView setAlpha:0.0f];
+    [UIView commitAnimations];
+
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:ANIMATION_DURATION];
+    CGAffineTransform transform = CGAffineTransformMakeScale(XSCALE, YSCALE);
+    self.toImageView.transform = transform;
+    [UIView commitAnimations];
+
+    [NSTimer scheduledTimerWithTimeInterval:ANIMATION_DURATION
+                                     target:self
+                                   selector:@selector(presentNextViewController:)
+                                   userInfo:self.viewController
+                                    repeats:NO];
+    
+}
+
 - (void)presentNextViewController:(NSTimer *)timer
 {
-    [self presentViewController:[timer userInfo] animated:YES completion:nil];
+    [self presentViewController:[timer userInfo]
+                       animated:YES
+                     completion:nil];
 }
 
 

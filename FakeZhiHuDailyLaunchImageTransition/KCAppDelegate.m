@@ -14,10 +14,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIImageView *splashScreen = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"FakeLaunchImage"]];
+    [self.window addSubview:splashScreen];
+    
     self.window.rootViewController =
     [KCLaunchImageViewController addTransitionToViewController:[[KCViewController alloc] init]
                                           modalTransitionStyle:UIModalTransitionStyleCrossDissolve
-                                                     withImage:@"Hepburn"];
+                                                     withImage:@"Photograph"
+                                                     taskBlock:^(void){
+                                                         [splashScreen removeFromSuperview];
+                                                     }];
     
     return YES;
 }
