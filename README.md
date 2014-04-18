@@ -1,5 +1,8 @@
 Fake-ZhiHu-Daily-LaunchImage-Transition
 =======================================
+## Demo
+![image](http://gifzo.net/hbK40g4IK6.gif)
+
 ## Installation
 
 1. Add `KCLaunchImageViewController.h` and `KCLaunchImageViewController.m` into your project
@@ -27,6 +30,7 @@ Fake-ZhiHu-Daily-LaunchImage-Transition
 ```
 
 ## Resource File
+
 The files should be open in [Sketch](http://bohemiancoding.com/sketch/)
 
 ## Author
