@@ -11,6 +11,7 @@
 #define ANIMATION_DURATION 4.0
 #define XSCALE 1.15
 #define YSCALE 1.15
+#define STATUS_BAR_HIDDEN 1
 
 
 @interface KCLaunchImageViewController : UIViewController

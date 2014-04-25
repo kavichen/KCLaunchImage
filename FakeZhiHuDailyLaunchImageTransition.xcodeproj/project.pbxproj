@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A00B63818FFBB270003326D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A00B63618FFBB270003326D /* Main.storyboard */; };
 		5AFA27D918FD2B6500B2892C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27D818FD2B6500B2892C /* Foundation.framework */; };
 		5AFA27DB18FD2B6600B2892C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27DA18FD2B6600B2892C /* CoreGraphics.framework */; };
 		5AFA27DD18FD2B6600B2892C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFA27DC18FD2B6600B2892C /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A00B63718FFBB270003326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FakeZhiHuDailyLaunchImageTransition/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AFA27D518FD2B6500B2892C /* FakeZhiHuDailyLaunchImageTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeZhiHuDailyLaunchImageTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFA27D818FD2B6500B2892C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5AFA27DA18FD2B6600B2892C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,13 +115,14 @@
 		5AFA27DE18FD2B6600B2892C /* FakeZhiHuDailyLaunchImageTransition */ = {
 			isa = PBXGroup;
 			children = (
-				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
+				5A00B63618FFBB270003326D /* Main.storyboard */,
 				5AFA27E718FD2B6600B2892C /* KCAppDelegate.h */,
 				5AFA27E818FD2B6600B2892C /* KCAppDelegate.m */,
 				5AFA27ED18FD2B6600B2892C /* KCViewController.h */,
 				5AFA27EE18FD2B6600B2892C /* KCViewController.m */,
 				5AFA280D18FD2F7100B2892C /* KCLaunchImageViewController.h */,
 				5AFA280E18FD2F7200B2892C /* KCLaunchImageViewController.m */,
+				5AFA27DF18FD2B6600B2892C /* Supporting Files */,
 			);
 			path = FakeZhiHuDailyLaunchImageTransition;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A00B63818FFBB270003326D /* Main.storyboard in Resources */,
 				5AFA27F118FD2B6600B2892C /* Images.xcassets in Resources */,
 				5AFA27E318FD2B6600B2892C /* InfoPlist.strings in Resources */,
 			);
@@ -277,6 +281,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5A00B63618FFBB270003326D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A00B63718FFBB270003326D /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		5AFA27E118FD2B6600B2892C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
