@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A10075C190A3F9100D02EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10075B190A3F9100D02EF4 /* Foundation.framework */; };
+		5A10075E190A3F9100D02EF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10075D190A3F9100D02EF4 /* CoreGraphics.framework */; };
+		5A100760190A3F9100D02EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10075F190A3F9100D02EF4 /* UIKit.framework */; };
+		5A100766190A3F9100D02EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A100764190A3F9100D02EF4 /* InfoPlist.strings */; };
+		5A100768190A3F9100D02EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100767190A3F9100D02EF4 /* main.m */; };
+		5A10076C190A3F9100D02EF4 /* KCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A10076B190A3F9100D02EF4 /* KCAppDelegate.m */; };
+		5A10076F190A3F9100D02EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A10076D190A3F9100D02EF4 /* Main.storyboard */; };
+		5A100772190A3F9100D02EF4 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100771190A3F9100D02EF4 /* KCViewController.m */; };
+		5A100774190A3F9100D02EF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A100773190A3F9100D02EF4 /* Images.xcassets */; };
+		5A10077B190A3F9100D02EF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10077A190A3F9100D02EF4 /* XCTest.framework */; };
+		5A10077C190A3F9100D02EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10075B190A3F9100D02EF4 /* Foundation.framework */; };
+		5A10077D190A3F9100D02EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10075F190A3F9100D02EF4 /* UIKit.framework */; };
+		5A100785190A3F9100D02EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A100783190A3F9100D02EF4 /* InfoPlist.strings */; };
+		5A100787190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100786190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m */; };
+		5A100793190A3FBB00D02EF4 /* KCLaunchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100792190A3FBB00D02EF4 /* KCLaunchImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A10077E190A3F9100D02EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A100750190A3F9100D02EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A100757190A3F9100D02EF4;
+			remoteInfo = KCLaunchImageViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A100758190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCLaunchImageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A10075B190A3F9100D02EF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A10075D190A3F9100D02EF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A10075F190A3F9100D02EF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A100763190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KCLaunchImageViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		5A100765190A3F9100D02EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A100767190A3F9100D02EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A100769190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCLaunchImageViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5A10076A190A3F9100D02EF4 /* KCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCAppDelegate.h; sourceTree = "<group>"; };
+		5A10076B190A3F9100D02EF4 /* KCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCAppDelegate.m; sourceTree = "<group>"; };
+		5A10076E190A3F9100D02EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A100770190A3F9100D02EF4 /* KCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCViewController.h; sourceTree = "<group>"; };
+		5A100771190A3F9100D02EF4 /* KCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
+		5A100773190A3F9100D02EF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A100779190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCLaunchImageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A10077A190A3F9100D02EF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A100782190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KCLaunchImageViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		5A100784190A3F9100D02EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A100786190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLaunchImageViewControllerDemoTests.m; sourceTree = "<group>"; };
+		5A100791190A3FBB00D02EF4 /* KCLaunchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCLaunchImageViewController.h; path = ../KCLaunchImageViewController/KCLaunchImageViewController.h; sourceTree = "<group>"; };
+		5A100792190A3FBB00D02EF4 /* KCLaunchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCLaunchImageViewController.m; path = ../KCLaunchImageViewController/KCLaunchImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A100755190A3F9100D02EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A10075E190A3F9100D02EF4 /* CoreGraphics.framework in Frameworks */,
+				5A100760190A3F9100D02EF4 /* UIKit.framework in Frameworks */,
+				5A10075C190A3F9100D02EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A100776190A3F9100D02EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A10077B190A3F9100D02EF4 /* XCTest.framework in Frameworks */,
+				5A10077D190A3F9100D02EF4 /* UIKit.framework in Frameworks */,
+				5A10077C190A3F9100D02EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A10074F190A3F9100D02EF4 = {
+			isa = PBXGroup;
+			children = (
+				5A100790190A3F9D00D02EF4 /* KCLaunchImageViewController */,
+				5A100761190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo */,
+				5A100780190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests */,
+				5A10075A190A3F9100D02EF4 /* Frameworks */,
+				5A100759190A3F9100D02EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A100759190A3F9100D02EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A100758190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo.app */,
+				5A100779190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A10075A190A3F9100D02EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A10075B190A3F9100D02EF4 /* Foundation.framework */,
+				5A10075D190A3F9100D02EF4 /* CoreGraphics.framework */,
+				5A10075F190A3F9100D02EF4 /* UIKit.framework */,
+				5A10077A190A3F9100D02EF4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A100761190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A10076A190A3F9100D02EF4 /* KCAppDelegate.h */,
+				5A10076B190A3F9100D02EF4 /* KCAppDelegate.m */,
+				5A10076D190A3F9100D02EF4 /* Main.storyboard */,
+				5A100770190A3F9100D02EF4 /* KCViewController.h */,
+				5A100771190A3F9100D02EF4 /* KCViewController.m */,
+				5A100773190A3F9100D02EF4 /* Images.xcassets */,
+				5A100762190A3F9100D02EF4 /* Supporting Files */,
+			);
+			path = KCLaunchImageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		5A100762190A3F9100D02EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A100763190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo-Info.plist */,
+				5A100764190A3F9100D02EF4 /* InfoPlist.strings */,
+				5A100767190A3F9100D02EF4 /* main.m */,
+				5A100769190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A100780190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A100786190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m */,
+				5A100781190A3F9100D02EF4 /* Supporting Files */,
+			);
+			path = KCLaunchImageViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		5A100781190A3F9100D02EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A100782190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests-Info.plist */,
+				5A100783190A3F9100D02EF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A100790190A3F9D00D02EF4 /* KCLaunchImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A100791190A3FBB00D02EF4 /* KCLaunchImageViewController.h */,
+				5A100792190A3FBB00D02EF4 /* KCLaunchImageViewController.m */,
+			);
+			name = KCLaunchImageViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A100757190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A10078A190A3F9100D02EF4 /* Build configuration list for PBXNativeTarget "KCLaunchImageViewControllerDemo" */;
+			buildPhases = (
+				5A100754190A3F9100D02EF4 /* Sources */,
+				5A100755190A3F9100D02EF4 /* Frameworks */,
+				5A100756190A3F9100D02EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCLaunchImageViewControllerDemo;
+			productName = KCLaunchImageViewControllerDemo;
+			productReference = 5A100758190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A100778190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A10078D190A3F9100D02EF4 /* Build configuration list for PBXNativeTarget "KCLaunchImageViewControllerDemoTests" */;
+			buildPhases = (
+				5A100775190A3F9100D02EF4 /* Sources */,
+				5A100776190A3F9100D02EF4 /* Frameworks */,
+				5A100777190A3F9100D02EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A10077F190A3F9100D02EF4 /* PBXTargetDependency */,
+			);
+			name = KCLaunchImageViewControllerDemoTests;
+			productName = KCLaunchImageViewControllerDemoTests;
+			productReference = 5A100779190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A100750190A3F9100D02EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "kavi chen";
+				TargetAttributes = {
+					5A100778190A3F9100D02EF4 = {
+						TestTargetID = 5A100757190A3F9100D02EF4;
+					};
+				};
+			};
+			buildConfigurationList = 5A100753190A3F9100D02EF4 /* Build configuration list for PBXProject "KCLaunchImageViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A10074F190A3F9100D02EF4;
+			productRefGroup = 5A100759190A3F9100D02EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A100757190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo */,
+				5A100778190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A100756190A3F9100D02EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A100774190A3F9100D02EF4 /* Images.xcassets in Resources */,
+				5A100766190A3F9100D02EF4 /* InfoPlist.strings in Resources */,
+				5A10076F190A3F9100D02EF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A100777190A3F9100D02EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A100785190A3F9100D02EF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A100754190A3F9100D02EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A100772190A3F9100D02EF4 /* KCViewController.m in Sources */,
+				5A10076C190A3F9100D02EF4 /* KCAppDelegate.m in Sources */,
+				5A100768190A3F9100D02EF4 /* main.m in Sources */,
+				5A100793190A3FBB00D02EF4 /* KCLaunchImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A100775190A3F9100D02EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A100787190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A10077F190A3F9100D02EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A100757190A3F9100D02EF4 /* KCLaunchImageViewControllerDemo */;
+			targetProxy = 5A10077E190A3F9100D02EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A100764190A3F9100D02EF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A100765190A3F9100D02EF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A10076D190A3F9100D02EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A10076E190A3F9100D02EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A100783190A3F9100D02EF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A100784190A3F9100D02EF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A100788190A3F9100D02EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos7.1;
+			};
+			name = Debug;
+		};
+		5A100789190A3F9100D02EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos7.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A10078B190A3F9100D02EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A10078C190A3F9100D02EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A10078E190A3F9100D02EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KCLaunchImageViewControllerDemo.app/KCLaunchImageViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KCLaunchImageViewControllerDemoTests/KCLaunchImageViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A10078F190A3F9100D02EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KCLaunchImageViewControllerDemo.app/KCLaunchImageViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "KCLaunchImageViewControllerDemoTests/KCLaunchImageViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A100753190A3F9100D02EF4 /* Build configuration list for PBXProject "KCLaunchImageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A100788190A3F9100D02EF4 /* Debug */,
+				5A100789190A3F9100D02EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A10078A190A3F9100D02EF4 /* Build configuration list for PBXNativeTarget "KCLaunchImageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A10078B190A3F9100D02EF4 /* Debug */,
+				5A10078C190A3F9100D02EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A10078D190A3F9100D02EF4 /* Build configuration list for PBXNativeTarget "KCLaunchImageViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A10078E190A3F9100D02EF4 /* Debug */,
+				5A10078F190A3F9100D02EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A100750190A3F9100D02EF4 /* Project object */;
+}
