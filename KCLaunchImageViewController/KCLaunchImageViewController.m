@@ -7,7 +7,6 @@
 //
 
 #import "KCLaunchImageViewController.h"
-#import "KCAppDelegate.h"
 
 @interface KCLaunchImageViewController ()
 @property (nonatomic,strong) UIImage * myImage;

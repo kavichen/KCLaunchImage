@@ -477,6 +477,7 @@
 				5A10078C190A3F9100D02EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A10078D190A3F9100D02EF4 /* Build configuration list for PBXNativeTarget "KCLaunchImageViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				5A10078F190A3F9100D02EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
