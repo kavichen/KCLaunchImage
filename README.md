@@ -1,7 +1,11 @@
-Fake-ZhiHu-Daily-LaunchImage-Transition
+KCLaunchImage
 =======================================
 ## Demo
 ![image](http://gifzo.net/hbK40g4IK6.gif)
+
+## Description
+
+A view controller which displays the launch image like Zhi Hu Daily.
 
 ## Installation
 
