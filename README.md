@@ -15,7 +15,7 @@ A view controller which displays the launch image like Zhi Hu Daily.
 
 ## Add to your project
 
-1. Add `KCLaunchImageViewController.h` and `KCLaunchImageViewController.m` into your project.
+1. Add `KCLaunchImageViewController.h` and `KCLaunchImageViewController.m` into your project（if you install it from pod, just skip this step).
 2. Create a new image set named `FakeLaunchImage`.
 3. Add your own launch image into `LaunchImage` and `FakeLaunchImage` separately.
 4. Add your own display image named `displayImage`.
