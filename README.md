@@ -9,11 +9,17 @@ A view controller which displays the launch image like Zhi Hu Daily.
 
 ## Installation
 
-1. Add `KCLaunchImageViewController.h` and `KCLaunchImageViewController.m` into your project
-2. Create a new image set named `FakeLaunchImage`
-3. Add your own launch image into `LaunchImage` and `FakeLaunchImage` separately
-4. Add your own display image named `displayImage`
-5. In your `AppDelegate.m` file, add those code
+1. Insert `pod 'KCLaunchImage', '~> 0.0.1'` into your `Podfile`.
+2. Type command `pod install` in your terminal.
+3. Done.
+
+## Add to your project
+
+1. Add `KCLaunchImageViewController.h` and `KCLaunchImageViewController.m` into your project.
+2. Create a new image set named `FakeLaunchImage`.
+3. Add your own launch image into `LaunchImage` and `FakeLaunchImage` separately.
+4. Add your own display image named `displayImage`.
+5. In your `AppDelegate.m` file, add those code.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -43,4 +49,4 @@ kavichen, chen1qi2wei3@gmail.com
 
 ## License
 
-FakeZhiHuDailyLaunchTransition is available under the MIT license. See the LICENSE file for more info.
+KCLaunchImage is available under the MIT license. See the LICENSE file for more info.
