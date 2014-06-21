@@ -43,6 +43,9 @@ A view controller which displays the launch image like Zhi Hu Daily.
 
 The files should be open in [Sketch](http://bohemiancoding.com/sketch/)
 
+## Attention
+If your images shored in `images.xcassets` , please set `Deployment Target` >= 7.0. 
+
 ## Author
 
 kavichen, chen1qi2wei3@gmail.com
