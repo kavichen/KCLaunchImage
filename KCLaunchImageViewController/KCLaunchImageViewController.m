@@ -22,18 +22,44 @@
 
 + (instancetype)addTransitionToViewController:(id)viewController
                          modalTransitionStyle:(UIModalTransitionStyle)theStyle
-                                    withImage:(NSString *)imageName
+                                withImageName:(NSString *)imageName
                                     taskBlock:(void (^)(void))block
 {
     return [[self alloc] initWithViewController:viewController
                            modalTransitionStyle:theStyle
-                                          image:imageName
+                                      imageName:imageName
+                                      taskBlock:block];
+}
+
++ (instancetype)addTransitionToViewController:(id)viewController
+                         modalTransitionStyle:(UIModalTransitionStyle)theStyle
+                                withImageData:(UIImage *)imageData
+                                    taskBlock:(void (^)(void))block
+{
+    return [[self alloc] initWithViewController:viewController
+                           modalTransitionStyle:theStyle
+                                      imageData:imageData
                                       taskBlock:block];
 }
 
 - (instancetype)initWithViewController:(id)viewController
                   modalTransitionStyle:(UIModalTransitionStyle)theStyle
-                                 image:(NSString *)imageName
+                             imageData:(UIImage *)imageData
+                             taskBlock:(void (^)(void))block
+{
+    self = [super init];
+    if (self) {
+        [viewController setModalTransitionStyle:theStyle];
+        self.myImage = [imageData copy];
+        self.viewController = viewController;
+        block();
+    }
+    return self;
+}
+
+- (instancetype)initWithViewController:(id)viewController
+                  modalTransitionStyle:(UIModalTransitionStyle)theStyle
+                             imageName:(NSString *)imageName
                              taskBlock:(void (^)(void))block
 
 {

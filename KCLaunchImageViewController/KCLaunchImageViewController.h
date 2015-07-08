@@ -18,7 +18,12 @@
 
 + (instancetype)addTransitionToViewController:(id)viewController
                          modalTransitionStyle:(UIModalTransitionStyle)theStyle
-                                    withImage:(NSString *)imageName
+                                    withImageName:(NSString *)imageName
+                                    taskBlock:(void (^)(void))block;
+
++ (instancetype)addTransitionToViewController:(id)viewController
+                         modalTransitionStyle:(UIModalTransitionStyle)theStyle
+                                    withImageData:(UIImage *)imageData
                                     taskBlock:(void (^)(void))block;
 
 @end
