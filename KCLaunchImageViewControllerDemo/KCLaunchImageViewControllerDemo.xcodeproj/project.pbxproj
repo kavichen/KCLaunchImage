@@ -210,9 +210,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = KC;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "kavi chen";
 				TargetAttributes = {
+					5A100757190A3F9100D02EF4 = {
+						DevelopmentTeam = 2JB4J39UA2;
+					};
 					5A100778190A3F9100D02EF4 = {
 						TestTargetID = 5A100757190A3F9100D02EF4;
 					};
@@ -351,7 +354,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos7.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -383,7 +386,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos7.1;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -393,12 +396,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,12 +413,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Guangzhong Cai (UN2UNY4959)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "KCLaunchImageViewControllerDemo/KCLaunchImageViewControllerDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,7 +1,7 @@
 KCLaunchImage
 =======================================
 ## Demo
-![image](http://gifzo.net/hbK40g4IK6.gif)
+[Video Demo]( http://youtu.be/BcXP814WxGQ)
 
 ## Description
 
@@ -53,3 +53,5 @@ kavichen, chen1qi2wei3@gmail.com
 ## License
 
 KCLaunchImage is available under the MIT license. See the LICENSE file for more info.
+
+
