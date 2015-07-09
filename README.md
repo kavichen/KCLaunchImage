@@ -9,7 +9,7 @@ A view controller which displays the launch image like Zhi Hu Daily.
 
 ## Installation
 
-1. Insert `pod 'KCLaunchImage', '~> 0.0.1'` into your `Podfile`.
+1. Insert `pod 'KCLaunchImage', '~> 0.0.2'` into your `Podfile`.
 2. Type command `pod install` in your terminal.
 3. Done.
 
