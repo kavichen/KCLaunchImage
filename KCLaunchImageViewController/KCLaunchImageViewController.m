@@ -110,23 +110,24 @@
 {
     [super viewDidAppear:animated];
     
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:TRANSITION_DURATION];
-    [self.fromImageView setAlpha:0.0f];
-    [UIView commitAnimations];
-    
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:ANIMATION_DURATION];
-    CGAffineTransform transform = CGAffineTransformMakeScale(XSCALE, YSCALE);
-    self.toImageView.transform = transform;
-    [UIView commitAnimations];
-    
-    [NSTimer scheduledTimerWithTimeInterval:ANIMATION_DURATION
-                                     target:self
-                                   selector:@selector(presentNextViewController:)
-                                   userInfo:self.viewController
-                                    repeats:NO];
-    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:TRANSITION_DURATION];
+        [self.fromImageView setAlpha:0.0f];
+        [UIView commitAnimations];
+        
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:ANIMATION_DURATION];
+        CGAffineTransform transform = CGAffineTransformMakeScale(XSCALE, YSCALE);
+        self.toImageView.transform = transform;
+        [UIView commitAnimations];
+        
+        [NSTimer scheduledTimerWithTimeInterval:ANIMATION_DURATION
+                                         target:self
+                                       selector:@selector(presentNextViewController:)
+                                       userInfo:self.viewController
+                                        repeats:NO];
+    });
 }
 
 - (void)presentNextViewController:(NSTimer *)timer
