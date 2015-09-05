@@ -15,10 +15,10 @@ ld/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+KCLaunchImageViewControllerDemo/xcuserdata
 *.xccheckout
 *.moved-aside
-DerivedData
+KCLaunchImageViewControllerDemo/DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
