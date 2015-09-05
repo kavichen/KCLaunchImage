@@ -22,6 +22,8 @@
 		5A100785190A3F9100D02EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A100783190A3F9100D02EF4 /* InfoPlist.strings */; };
 		5A100787190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100786190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m */; };
 		5A100793190A3FBB00D02EF4 /* KCLaunchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100792190A3FBB00D02EF4 /* KCLaunchImageViewController.m */; };
+		5AB250CD1B9A85B900D5A13B /* UIImage+ForiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB250CC1B9A85B900D5A13B /* UIImage+ForiPhone.m */; settings = {ASSET_TAGS = (); }; };
+		5AB250D01B9A860300D5A13B /* NSString+deviceSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB250CF1B9A860300D5A13B /* NSString+deviceSize.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,11 @@
 		5A100786190A3F9100D02EF4 /* KCLaunchImageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCLaunchImageViewControllerDemoTests.m; sourceTree = "<group>"; };
 		5A100791190A3FBB00D02EF4 /* KCLaunchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCLaunchImageViewController.h; path = ../KCLaunchImageViewController/KCLaunchImageViewController.h; sourceTree = "<group>"; };
 		5A100792190A3FBB00D02EF4 /* KCLaunchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCLaunchImageViewController.m; path = ../KCLaunchImageViewController/KCLaunchImageViewController.m; sourceTree = "<group>"; };
+		5AB250CA1B9A858A00D5A13B /* iOSDeviceType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iOSDeviceType.h; path = ../KCLaunchImageViewController/iOSDeviceType.h; sourceTree = "<group>"; };
+		5AB250CB1B9A85B900D5A13B /* UIImage+ForiPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForiPhone.h"; path = "../KCLaunchImageViewController/UIImage+ForiPhone.h"; sourceTree = "<group>"; };
+		5AB250CC1B9A85B900D5A13B /* UIImage+ForiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForiPhone.m"; path = "../KCLaunchImageViewController/UIImage+ForiPhone.m"; sourceTree = "<group>"; };
+		5AB250CE1B9A860300D5A13B /* NSString+deviceSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+deviceSize.h"; path = "../KCLaunchImageViewController/NSString+deviceSize.h"; sourceTree = "<group>"; };
+		5AB250CF1B9A860300D5A13B /* NSString+deviceSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+deviceSize.m"; path = "../KCLaunchImageViewController/NSString+deviceSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +168,11 @@
 			children = (
 				5A100791190A3FBB00D02EF4 /* KCLaunchImageViewController.h */,
 				5A100792190A3FBB00D02EF4 /* KCLaunchImageViewController.m */,
+				5AB250CA1B9A858A00D5A13B /* iOSDeviceType.h */,
+				5AB250CB1B9A85B900D5A13B /* UIImage+ForiPhone.h */,
+				5AB250CC1B9A85B900D5A13B /* UIImage+ForiPhone.m */,
+				5AB250CE1B9A860300D5A13B /* NSString+deviceSize.h */,
+				5AB250CF1B9A860300D5A13B /* NSString+deviceSize.m */,
 			);
 			name = KCLaunchImageViewController;
 			sourceTree = "<group>";
@@ -266,9 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB250CD1B9A85B900D5A13B /* UIImage+ForiPhone.m in Sources */,
 				5A100772190A3F9100D02EF4 /* KCViewController.m in Sources */,
 				5A10076C190A3F9100D02EF4 /* KCAppDelegate.m in Sources */,
 				5A100768190A3F9100D02EF4 /* main.m in Sources */,
+				5AB250D01B9A860300D5A13B /* NSString+deviceSize.m in Sources */,
 				5A100793190A3FBB00D02EF4 /* KCLaunchImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

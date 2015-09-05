@@ -9,12 +9,13 @@
 #import "KCAppDelegate.h"
 #import "KCViewController.h"
 #import "KCLaunchImageViewController.h"
+#import "UIImage+ForiPhone.h"
 
 @implementation KCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UIImageView *splashScreen = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"FakeLaunchImage"]];
+    UIImageView *splashScreen = [[UIImageView alloc] initWithImage:[UIImage autoSelectImageWithImageName:@"FakeLaunchImage"]];
     [self.window addSubview:splashScreen];
     
     self.window.rootViewController =

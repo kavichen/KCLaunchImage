@@ -7,6 +7,7 @@
 //
 
 #import "KCLaunchImageViewController.h"
+#import "UIImage+ForiPhone.h"
 
 @interface KCLaunchImageViewController ()
 @property (nonatomic,strong) UIImage * myImage;
@@ -66,7 +67,7 @@
     self = [super init];
     if (self) {
         [viewController setModalTransitionStyle:theStyle];
-        self.myImage = [UIImage imageNamed:imageName];
+        self.myImage = [UIImage autoSelectImageWithImageName:imageName];
         self.viewController = viewController;
         block();
     }
@@ -96,10 +97,10 @@
 {
     [super viewWillAppear:animated];
     
-    self.fromImageView.image = [UIImage imageNamed:@"FakeLaunchImage"];
+    self.fromImageView.image = [UIImage autoSelectImageWithImageName:@"FakeLaunchImage"];
     [self.view addSubview:self.fromImageView];
     
-    self.maskImageView.image = [UIImage imageNamed:@"MaskImage"];
+    self.maskImageView.image = [UIImage autoSelectImageWithImageName:@"MaskImage"];
     [self.view insertSubview:self.maskImageView belowSubview:self.fromImageView];
     
     self.toImageView.image = self.myImage;
