@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+ForiPhone.h"
+
 #define TRANSITION_DURATION 1.66
 #define ANIMATION_DURATION 4.0
 #define XSCALE 1.15

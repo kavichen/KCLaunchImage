@@ -9,7 +9,6 @@
 #import "KCAppDelegate.h"
 #import "KCViewController.h"
 #import "KCLaunchImageViewController.h"
-#import "UIImage+ForiPhone.h"
 
 @implementation KCAppDelegate
 
