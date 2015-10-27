@@ -69,7 +69,9 @@
         [viewController setModalTransitionStyle:theStyle];
         self.myImage = [UIImage autoSelectImageWithImageName:imageName];
         self.viewController = viewController;
-        block();
+        if (block) {
+          block();
+        }
     }
     return self;
 }
