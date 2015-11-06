@@ -10,6 +10,7 @@
 
 
 @interface KCLaunchImageViewController ()
+
 @property (nonatomic,strong) UIImage * myImage;
 @property (nonatomic,strong) id viewController;
 @property (nonatomic,strong) UIImageView *fromImageView;
@@ -53,7 +54,9 @@
         [viewController setModalTransitionStyle:theStyle];
         self.myImage = [imageData copy];
         self.viewController = viewController;
-        block();
+        if (block) {
+            block();
+        }
     }
     return self;
 }
